@@ -1,5 +1,5 @@
- .global main
- .extern printf 
+.global main
+.extern printf 
 .include "header.s"
  main:
   bl fun
